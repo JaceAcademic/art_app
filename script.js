@@ -1,3 +1,3 @@
-function change_page() {
+function leyndeckerPage() {
     window.location.replace("./leyndecker.html");
 };
