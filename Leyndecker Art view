@@ -15,5 +15,4 @@
         }
 
     
-        .resizable-image.enlarged {
-             transform: scale(1.5); /* Scales the image up by 50% */
+    
