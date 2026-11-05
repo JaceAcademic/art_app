@@ -50,3 +50,14 @@ p {
 }
 
  
+/* .click-image {
+  width: 300px;
+  cursor: pointer;
+  transition: width 0.3s ease;
+}
+  
+.click-image:active {
+  width: 600px;
+}
+
+/*
