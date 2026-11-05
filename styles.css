@@ -18,10 +18,16 @@ h1 {
     margin-bottom: 45px;
 }
 
+h3 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
 p {
     text-align: center;
     margin-bottom: 45px;
 }
+
 .homeNavigation {
     display: flex;
     justify-content: center;
