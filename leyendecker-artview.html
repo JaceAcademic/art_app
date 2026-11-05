@@ -1,32 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-       <meta charset="UTF-8" />
-       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-       <title>Application Design Project</title>
-       <!-- Google Fonts import for Poppins -->
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
-       <link rel="stylesheet" href="styles.css" />
-       <link rel="icon" href="favicon.ico" type="image/x-icon" />
-       <script type="text/javascript" src="script.js" defer></script>
-</head>
-
-<body>
-       <h1>J.C. Leyendecker</h1>
-       <h3>Art View</h3>
-
-       <div class="images">
-              <img src="images/football-hero.jpg" alt="Football Hero by J.C. Leyndecker">
-              <img src="images/Leyn-study.webp" alt="">
-       </div>
-
-       <div class="homeNavigation">
-              <button id="backHome" onclick="backHome()">Homepage</button>
-       </div>
-</body>
-
-</html>
+<img src="Leyn-study.webp" 
+     style="width: 300px; cursor: pointer; transition: width 0.3s;" 
+     onclick="this.style.width = (this.style.width === '600px') ? '300px' : '600px';">
