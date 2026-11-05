@@ -18,6 +18,11 @@ h1 {
     margin-bottom: 45px;
 }
 
+p {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 45px;
+}
 .homeNavigation {
     display: flex;
     justify-content: center;
