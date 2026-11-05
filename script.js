@@ -1,10 +1,10 @@
 // Leyndecker Coding
-function leyndeckerPage() {
-    window.location.replace("./leyndecker.html");
+function leyendeckerPage() {
+    window.location.replace("./leyendecker.html");
 };
 
-function leynArtView() {
-    window.location.replace("./leyndecker-artview.html");
+function leyenArtView() {
+    window.location.replace("./leyendecker-artview.html");
 };
 
 // Rockwell Coding
