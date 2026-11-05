@@ -1,4 +1,4 @@
-// Leyndecker Coding
+// Leyndecker
 function leyendeckerPage() {
     window.location.replace("./leyendecker.html");
 };
@@ -7,7 +7,7 @@ function leyenArtView() {
     window.location.replace("./leyendecker-artview.html");
 };
 
-// Rockwell Coding
+// Rockwell
 function rockwellPage() {
     window.location.replace("./rockwell.html");
 };
@@ -21,5 +21,3 @@ function normArtView() {
 function backHome() {
     window.location.replace("./index.html");
 }
-
-// f
