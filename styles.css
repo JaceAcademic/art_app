@@ -13,6 +13,7 @@ body {
 
 body {
     color: #252525;
+    background-color: #f5f2eb;
     padding: 70px 8%;
 }
 
@@ -40,6 +41,25 @@ p {
     margin-bottom: 20px;
 }
 
+.homeNavigation button {
+    background-color: #252525;
+    color: #f5f2eb;
+
+    border: none;
+    border-radius: 6px;
+
+    padding: 12px 24px;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.homeNavigation button:hover {
+    background-color: #444444;
+}
+
 /* IMAGES */
 .images {
     display: flex;
@@ -61,7 +81,7 @@ p {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: auto;
     gap: 40px;
 }
 
@@ -88,16 +108,17 @@ p {
     align-items: center;
     width: 100%;
     max-width: 100%;
-    height: 250px;
-    gap: 100px;
+    height: auto;
+    gap: 40px;
 }
 
 .artview img {
-    max-height: 100%;
+    width: 100%;
+    height: 350px;
     object-fit: contain;
 }
 
-.click-image {
+.highlight-image {
     transition: transform 0.5s ease;
     max-width: 100%;
     height: auto;
@@ -106,8 +127,8 @@ p {
 }
 
 
-.click-image:hover {
-    transform: scale(1.56);
+.highlight-image:hover {
+    transform: scale(1.5);
     position: relative;
     z-index: 10;
 }
